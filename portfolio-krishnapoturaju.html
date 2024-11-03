@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<metra charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a995b083bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="logo.jpg" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">service</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">contact</a></li>
+<i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      
+
+    </nav>
+<div class="headre-text">
+  <p>ui/UX designer</p>
+  <h1>hi,i'm <span>krishna pavan teja</span> <br>from india</h1>
+
+</div>
+  </div>
+</div>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col1">
+<img src="hero.jpg">
+      </div>
+      <div class="about-col2">
+<h1 class="subtitle">About me</h1>
+<p>i am so confident ,i completed inter with 90% and
+  i completed btech with 8+ cgpa,i want  become well webdeveloper 
+</p>
+<div class="tab-titles">
+  <p class="tab-links active-link"onclick="opentab('skills')">skills</p>
+  <p class="tab-links"onclick="opentab('experience')">experience</p>
+  <p class="tab-links"onclick="opentab('education')">education</p>
+</div>
+<div class="tab-contains active-tab" id="skills">
+  <ul>
+    <li><span>UI/UX</span><br> desinging web interface</li>
+    <li><span>webdeveloper</span><br> desinging web interface</li>
+    <li><span>app developer</span><br> desinging web interface</li> 
+  </ul>
+</div>
+<div class="tab-contains " id="experience">
+  <ul>
+    <li><span>2023-2024</span><br> learned web interface</li>
+    <li><span>hackathon</span><br> participated</li>
+    <li><span>internship</span><br> it is done in tcs</li> 
+  </ul>
+</div>
+<div class="tab-contains" id="education">
+  <ul>
+    <li><span>2023-2027</span><br> btech</li>
+    <li><span>2021-2023</span><br> intemediate</li>
+    <li><span>2010-2021</span><br> school</li> 
+  </ul>
+</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--sevices-->
+<div id="services">
+  <div class="container">
+    <h1 class="subtitle">my services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>web design</h2>
+        <p>
+          apreffesional web designer you can give me any task
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX</h2>
+        <p>
+          apreffesional web designer you can give me any task
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>APP design</h2>
+        <p>
+          apreffesional web designer you can give me any task
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="phn1.jpg">
+        <div class="layer">
+          <h1>social media app</h1>
+          <p> the app connects you the talented people around the world.downloaded from playstore </p>
+        <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="phn2.jpg"> 
+        <div class="layer">
+          <h1>music app</h1>
+          <p> the app connects you the talented people around the world.downloaded from playstore </p>
+        <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="phn3.jpg">
+        <div class="layer">
+          <h1>online shopping app</h1>
+          <p> the app connects you the talented people around the world.downloaded from playstore </p>
+        <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+  </div>
+</div>
+<!--contact-->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">contact me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>pavanpoturaju123@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>8374111736</p>
+        <div class="social-icons">
+          <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <a href="full-stack-developer.png" download class="btn btn2">download cv</a>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="your name" required>
+         <input type="email" name="email" placeholder="your mail">
+       <textarea name="message" rows="6" placeholder="your message"></textarea>
+        <button type="submit" class="btn btn2"> submit</button>
+      </form>
+      <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>copyright krishna, made with <i class="fa-solid fa-heart"></i>by easy tutorial</p>
+  </div>
+</div>
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontains=document.getElementsByClassName("tab-contains");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }for(tabcontain of tabcontains){
+      tabcontain.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+  var sidemenu=document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right="0";
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px";
+  }
+</script>
+<form name="submit-to-google-sheet">
+  <input name="email" type="email" placeholder="Email" required>
+  <button type="submit">Send</button>
+</form>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwtHZtfzSMOwyvaj-_jjhxea9OK6LtZKXSXHDv2fRS7-oo5DGbMEq7kLdA2CpU8Kodt/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+
+</html>
